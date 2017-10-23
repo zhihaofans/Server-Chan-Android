@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name" translatable="false">Server Chan 3rd</string>
+    <string name="text_title">Title</string>
+    <string name="text_text">(Optional,MarkDown)</string>
+    <string name="text_send">Send</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_singleLine">Single line text</string>
+    <string name="text_multiLineText">Multi-line text</string>
+    <string name="text_sendByGET">Send by GET</string>
+    <string name="text_sendByPOST">Send by POST</string>
+    <string name="error_noMultiByGet">You cannot send Mulit-line texts by GET</string>
+    <string name="error_noEnterKey">Please enter your SCKEY</string>
+    <string name="text_save">Save</string>
+    <string name="text_finish">Finish</string>
+    <string name="text_about">About</string>
 </resources>

@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="text_title">标题</string>
+    <string name="text_text">(选填,MarkDown)</string>
+    <string name="text_send">发送</string>
+    <string name="text_setting">设置</string>
+    <string name="text_singleLine">单行文本</string>
+    <string name="text_multiLineText">多行文本</string>
+    <string name="error_noMultiByGet">你不能通过GET模式发送多行文本</string>
+    <string name="text_sendByGET">以GET的形式发送</string>
+    <string name="text_sendByPOST">以POST的形式发送</string>
+    <string name="error_noEnterKey">请输入你的SCKEY</string>
+    <string name="text_save">保存</string>
+    <string name="text_finish">完成</string>
+    <string name="text_about">关于</string>
+</resources>
