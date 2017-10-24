@@ -119,6 +119,13 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
         et_text.setText(lastDesp)
         buttonSwitch()
         et_text.hint = getString(R.string.text_singleLine) + getString(R.string.text_text)
+        if (serverChan.getKey().isEmpty()) {
+            alert(getString(R.string.error_noEnterKey), "Error") {
+                yesButton {
+                    setSCKEY()
+                }
+            }.show()
+        }
     }
 
     @SuppressLint("SetTextI18n")
@@ -136,8 +143,8 @@ class MainActivity : AppCompatActivity(), AnkoLogger {
             customView {
                 verticalLayout {
                     val et = editText {
-                        hint = "av123456"
-                        title = getString(R.string.text_title)
+                        hint = "SCKEY"
+                        title = "SCKEY"
                         inputType = InputType.TYPE_TEXT_FLAG_MULTI_LINE
                         setText(set.getStr("SCKEY", ""))
                     }

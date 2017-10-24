@@ -8,4 +8,8 @@
     tools:context="com.zhihaofans.server_chan_3rd_party.view.AboutActivity"
     tools:showIn="@layout/activity_about">
 
+    <ListView
+        android:id="@+id/lv_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

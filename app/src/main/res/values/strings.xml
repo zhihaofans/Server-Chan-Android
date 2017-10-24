@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Server Chan 3rd</string>
+    <string name="app_name">Server Chan 3rd</string>
     <string name="text_title">Title</string>
     <string name="text_text">(Optional,MarkDown)</string>
     <string name="text_send">Send</string>
@@ -13,4 +13,10 @@
     <string name="text_save">Save</string>
     <string name="text_finish">Finish</string>
     <string name="text_about">About</string>
+    <string name="text_error">Error</string>
+    <string name="text_serverChan">Server Chan</string>
+    <string name="text_thisApp">this app</string>
+    <string name="text_aboutThisApp">This is a third-party application that use Server Chan API to push message to WeChat, the author is zhihaofans,and it\'s not the Server Chan(https://sc.ftqq.com) official APP. I guarantee it will not upload your SCKEY at any time, SCKEY will only be saved locally. If you do not believe it，you can download the Source code on Github. thank you for your use.</string>
+    <string name="text_sourceCode">Source code</string>
+    <string name="text_bugs">Bugs?</string>
 </resources>
