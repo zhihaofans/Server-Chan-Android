@@ -12,3 +12,7 @@
 下载:
 - [蒲公英](https://www.pgyer.com/M3Ef) (移动设备、国内用户推荐)
 - [Github](https://github.com/zhihaofans/Server-Chan-Android/releases/latest)
+
+截图:
+
+![Screenshot](./images/Screenshot.png)
