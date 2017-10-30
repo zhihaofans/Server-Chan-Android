@@ -13,11 +13,13 @@
     <string name="text_save">保存</string>
     <string name="text_finish">完成</string>
     <string name="text_about">关于</string>
-    <string name="app_name">Server酱3rd</string>
     <string name="text_error">错误</string>
     <string name="text_serverChan">Server酱</string>
     <string name="text_thisApp">此应用</string>
     <string name="text_aboutThisApp">这是一个调用Server酱API的第三方安卓应用，作者：zhihaofans。本应用与Server酱(https://sc.ftqq.com)官方无关，保证在任何时候不会上传您的SCKEY，SCKEY仅保存至本地。如不放心请到Github自行克隆代码进行编译，感谢您的使用。</string>
     <string name="text_sourceCode">源代码</string>
     <string name="text_bugs">有问题？</string>
+    <string name="text_share2serverChan">分享到Server酱</string>
+    <string name="text_shareFrom">分享自</string>
+    <string name="text_iconSource">图标来源</string>
 </resources>

@@ -11,8 +11,8 @@ android {
         applicationId "com.zhihaofans.server_chan_3rd_party"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 2
-        versionName "0.1-Alpha2"
+        versionCode 4
+        versionName "0.1-Alpha4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -37,8 +37,6 @@ dependencies {
     // okhttp3
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'com.squareup.okio:okio:1.13.0'
-    // fastjson
-    //compile 'com.alibaba:fastjson:1.1.64.android'
 }
 kotlin {
     experimental {

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zhihaofans.server_chan_3rd_party.MainActivity">
+    tools:context="com.zhihaofans.server_chan_3rd_party.view.StartActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,19 +40,28 @@
             android:id="@+id/b_send"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_send" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/text_send"
+            tools:textAllCaps="false" />
 
         <Button
             android:id="@+id/b_setting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_setting" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/text_setting"
+            tools:textAllCaps="false" />
 
         <Button
             android:id="@+id/b_about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/text_about" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/text_about"
+            tools:textAllCaps="false" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
