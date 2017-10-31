@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_start"
+        android:shortcutDisabledMessage="@string/app_name"
+        android:shortcutId="compose"
+        android:shortcutLongLabel="@string/app_name"
+        android:shortcutShortLabel="@string/app_name"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.zhihaofans.server_chan_3rd_party.MainActivity"
+            android:targetPackage="com.zhihaofans.server_chan_3rd_party" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
