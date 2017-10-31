@@ -1,5 +1,11 @@
 # 更新日志
 
+## v0.1-Alpha5
+
+### 新增
+
+- App Shortcuts
+
 ## v0.1-Alpha4
 
 ### 新增

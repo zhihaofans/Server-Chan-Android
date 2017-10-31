@@ -11,8 +11,8 @@ android {
         applicationId "com.zhihaofans.server_chan_3rd_party"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 4
-        versionName "0.1-Alpha4"
+        versionCode 5
+        versionName "0.1-Alpha5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
