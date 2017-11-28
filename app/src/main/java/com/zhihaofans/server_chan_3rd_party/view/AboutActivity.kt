@@ -5,12 +5,13 @@ import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import com.orhanobut.logger.Logger
 import com.zhihaofans.server_chan_3rd_party.R
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.content_about.*
 import org.jetbrains.anko.*
 
-class AboutActivity : AppCompatActivity(), AnkoLogger {
+class AboutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +22,7 @@ class AboutActivity : AppCompatActivity(), AnkoLogger {
         lv_about.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, items)
         lv_about.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val itemValue: String = lv_about.getItemAtPosition(position) as String
-            debug("选择了$itemValue($position)")
+            Logger.d("选择了$itemValue($position)")
             when (position) {
                 0 -> alert(getString(R.string.text_aboutThisApp), getString(R.string.text_about) + getString(R.string.text_thisApp)) { yesButton {} }.show()
                 1 -> browse("https://sc.ftqq.com/3.version")

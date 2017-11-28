@@ -18,6 +18,8 @@ class ShareActivity : Activity() {
         if (Objects.equals(Intent.ACTION_SEND, intent.action) && intent.type != null && Objects.equals("text/plain", intent.type)) {
             val st = intent.getStringExtra(Intent.EXTRA_TEXT)
             startActivity<StartActivity>("shareText" to st)
+        } else {
+            finish()
         }
     }
 }

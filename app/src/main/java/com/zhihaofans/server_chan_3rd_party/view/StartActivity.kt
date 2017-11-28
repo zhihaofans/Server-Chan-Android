@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.InputType
+import com.orhanobut.logger.Logger
 import com.zhihaofans.server_chan_3rd_party.R
 import com.zhihaofans.server_chan_3rd_party.util.ServerChanUtil
 import com.zhihaofans.server_chan_3rd_party.util.SettingUtil
@@ -11,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_start.*
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
-class StartActivity : AppCompatActivity(), AnkoLogger {
+class StartActivity : AppCompatActivity() {
     private val serverChan = ServerChanUtil()
     private val set = SettingUtil()
     private var sendByPost = false
@@ -90,7 +91,7 @@ class StartActivity : AppCompatActivity(), AnkoLogger {
                             serverChan.get(et_title.text.toString(), et_text.text.toString())
                         }
                         uiThread {
-                            debug(re)
+                            Logger.d(re)
                             loading.hide()
                             val errStr = serverChan.getError(re)
                             alert(errStr, getString(R.string.text_finish)) { yesButton { } }.show()
@@ -134,7 +135,7 @@ class StartActivity : AppCompatActivity(), AnkoLogger {
                 et_title.setText(getString(R.string.text_shareFrom) + getString(R.string.app_name))
                 et_text.setText(shareText)
                 if (autoSend) {
-                    b_send.callOnClick()
+
                 }
             }
         } catch (e: Error) {
@@ -180,4 +181,3 @@ class StartActivity : AppCompatActivity(), AnkoLogger {
         System.exit(0)
     }
 }
-
