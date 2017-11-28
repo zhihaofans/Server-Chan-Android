@@ -16,3 +16,5 @@
 截图:
 
 ![Screenshot](./images/Screenshot.png)
+![Screenshot](./images/Screenshot_share.png)
+![Screenshot](./images/Screenshot_browser.png)
