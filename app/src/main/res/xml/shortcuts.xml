@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_start"
+        android:icon="@mipmap/ic_launcher"
         android:shortcutDisabledMessage="@string/app_name"
         android:shortcutId="compose"
         android:shortcutLongLabel="@string/app_name"
